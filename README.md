@@ -66,62 +66,6 @@ Cleaning the aforementioned data and combine them into one dataframe.
 ### 5. Validation of BW Index
 Running regressions of the original data against the BW Index and the data I retrieved against the BW Index.
 
-Original data against the BW Index
-----------------------------------
-                                OLS Regression Results                                
-=======================================================================================
-Dep. Variable:                   SENT   R-squared (uncentered):                   0.675
-Model:                            OLS   Adj. R-squared (uncentered):              0.672
-Method:                 Least Squares   F-statistic:                              326.4
-Date:                Tue, 22 Feb 2022   Prob (F-statistic):                   6.25e-157
-Time:                        23:55:09   Log-Likelihood:                         -365.98
-No. Observations:                 519   AIC:                                      742.0
-Df Residuals:                     514   BIC:                                      763.2
-Df Model:                           5                                                  
-Covariance Type:                  HC0                                                  
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-cefd          -0.0736      0.004    -19.410      0.000      -0.081      -0.066
-ripo          -0.0022      0.001     -2.149      0.032      -0.004      -0.000
-nipo           0.0063      0.001      7.861      0.000       0.005       0.008
-s              2.2733      0.304      7.476      0.000       1.677       2.869
-pdnd          -0.0303      0.002    -13.749      0.000      -0.035      -0.026
-==============================================================================
-Omnibus:                      188.016   Durbin-Watson:                   0.137
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              925.449
-Skew:                           1.532   Prob(JB):                    1.10e-201
-Kurtosis:                       8.780   Cond. No.                         524.
-==============================================================================
-
-
-New data against the BW Index
------------------------------
-                                 OLS Regression Results                                
-=======================================================================================
-Dep. Variable:                   SENT   R-squared (uncentered):                   0.875
-Model:                            OLS   Adj. R-squared (uncentered):              0.827
-Method:                 Least Squares   F-statistic:                              174.0
-Date:                Tue, 22 Feb 2022   Prob (F-statistic):                    1.96e-11
-Time:                        23:55:09   Log-Likelihood:                          16.672
-No. Observations:                  18   AIC:                                     -23.34
-Df Residuals:                      13   BIC:                                     -18.89
-Df Model:                           5                                                  
-Covariance Type:                  HC0                                                  
-==============================================================================
-                 coef    std err          z      P>|z|      [0.025      0.975]
-------------------------------------------------------------------------------
-CEFD           0.0034      0.002      2.207      0.027       0.000       0.006
-RIPO          -0.0074      0.046     -0.162      0.871      -0.097       0.082
-NIPO           0.0006      0.003      0.252      0.801      -0.004       0.006
-Sm            -0.1116      0.065     -1.710      0.087      -0.240       0.016
-PDND          -0.0004      0.000     -1.855      0.064      -0.001    2.07e-05
-==============================================================================
-Omnibus:                        1.185   Durbin-Watson:                   0.819
-Prob(Omnibus):                  0.553   Jarque-Bera (JB):                0.405
-Skew:                           0.363   Prob(JB):                        0.817
-Kurtosis:                       3.111   Cond. No.                     1.87e+03
-==============================================================================
 
 
 
