@@ -67,9 +67,11 @@ Cleaning the aforementioned data and combine them into one dataframe.
 ### 5. Validation of BW Index
 Running regressions of the original data against the BW Index and the data I retrieved against the BW Index.
 1. Original Data 
+
 ![Original](https://user-images.githubusercontent.com/70565542/155175176-2ed1f31e-1b4b-4d57-93a4-918b3dea8e13.png)
 
 2. New Data
+
 ![New ](https://user-images.githubusercontent.com/70565542/155175311-2f085b48-6d52-4ff8-b3bb-9147596a8f0f.png)
 
 
