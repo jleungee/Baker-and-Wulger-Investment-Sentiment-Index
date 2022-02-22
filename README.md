@@ -1,6 +1,6 @@
 # Baker-and-Wulger-Investment-Sentiment-Index
-A Web Scraping exercise which utilizes Selenium and BeautifulSoup to reconstruct the Baker and Wulger Index within the period of 2017-07 to 2021-07. The data collected here,
-instead of monthly as in the 2006 paper written by Baker and Wulger, is weekly to better predict short-term movement of stock and crypto prices.
+A **Web Scraping project** which utilizes **Selenium** and **BeautifulSoup** to reconstruct the **Baker and Wulger Index** within the period of 2017-07 to 2021-07. The data 
+collected here, instead of monthly as in the 2006 paper written by Baker and Wulger, is weekly to better predict short-term movement of stock and crypto prices.
 
 ## Baker and Wulger Index
 Investment Sentiment has been an increasing important field of study in finance and one of the pioneers in this field are Malcolm Baker and Jeffrey Wurgler, 
