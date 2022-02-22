@@ -25,6 +25,7 @@ Here are some documents in this repository:
 3. pdnd.py - Dividend Premium data are scraped by using BeautifulSoup, requests and yfinance
 4. baker and wulger.py - Further cleaning of all data and retrieving new IPOs data
 5. Validation of BW Index - Testing the R^2 and significance of the original BW Index and the data I retrieved
+6. bw.zip - All the csv files used and returned in this projects
 
 Below are some further explanation of each section:
 
