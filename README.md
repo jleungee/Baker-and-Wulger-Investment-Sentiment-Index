@@ -43,7 +43,7 @@ Securities and Loans; Liability, Level data from FRED (https://fred.stlouisfed.o
 debt issuance, I took the quarterly first difference and average them in a weekly/monthly scale.
 
 
-## 3. Getting dividend premium data
+### 3. Getting dividend premium data
 The stocks considered to calculate are those listed in S&P 500. I did a quick scraping to get the stocks' tickers from Wikipedia
 ("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies") by using requests and BeautifulSoup. With the tickers, I can retrieve their dividends data from Yahoo Finance API
 (yfinance). Dividend payers are those who have positive dividends in that year, and Non-dividend payers are those who don't. After separating the stocks in to payers and 
