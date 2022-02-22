@@ -8,7 +8,7 @@ who constructed the popular Baker and Wulger Index (BW Index) in their famous 20
 In their paper, they used 6 parameters and principal analysis to quantify
 investment sentiment, namely:
 1. Closed-end fund discount (CEFD) - the average difference between the net asset values (NAV) of closed-end stock fund shares and their market prices.
-2. NYSE share turnover (NYSE)* - the ratio of reported share volume to average shares listed from the NYSE Fact Book
+2. NYSE share turnover (NYSE)** - the ratio of reported share volume to average shares listed from the NYSE Fact Book
 3. Number of IPOs (NIPO)
 4. Average first-day returns (RIPO)
 5. Share of equity issues in total equity and debt issues (S)
