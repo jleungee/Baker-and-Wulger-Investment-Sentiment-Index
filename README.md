@@ -4,7 +4,7 @@ collected here, instead of monthly as in the 2006 paper written by Baker and Wul
 
 ## Baker and Wulger Index
 Investment Sentiment has been an increasing important field of study in finance and one of the pioneers in this field are Malcolm Baker and Jeffrey Wurgler, 
-who constructed the popular Baker and Wulger Index (BW Index) in their famous 2006 paper (http://people.stern.nyu.edu/jwurgler/papers/wurgler_baker_cross_section.pdf.
+who constructed the popular Baker and Wulger Index (BW Index) in their famous 2006 paper (http://people.stern.nyu.edu/jwurgler/papers/wurgler_baker_cross_section.pdf).
 In their paper, they used 6 parameters and principal analysis to quantify
 investment sentiment, namely:
 1. Closed-end fund discount (CEFD) - the average difference between the net asset values (NAV) of closed-end stock fund shares and their market prices.
