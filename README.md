@@ -12,7 +12,7 @@ investment sentiment, namely:
 5. Share of equity issues in total equity and debt issues (S)
 6. Dividend premium (PDND)
 
-* As seen from Wulger's personal website (http://people.stern.nyu.edu/jwurgler/), he removes the NYSE measures from his newest update of the index.
+** As seen from Wulger's personal website (http://people.stern.nyu.edu/jwurgler/), he removes the NYSE measures from his newest update of the index.
 
 
 ## Project Introduction
