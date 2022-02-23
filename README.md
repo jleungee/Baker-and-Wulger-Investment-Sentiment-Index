@@ -72,8 +72,9 @@ Running regressions of the original data against the BW Index and the data I ret
 ![Original](https://user-images.githubusercontent.com/70565542/155175176-2ed1f31e-1b4b-4d57-93a4-918b3dea8e13.png)
 
 2. New Data (Sm is the parameter S adjusted in monthly)
+![New ](https://user-images.githubusercontent.com/70565542/155406753-05d1972b-44af-4319-bcde-01da40d21647.png)
 
-![New ](https://user-images.githubusercontent.com/70565542/155175311-2f085b48-6d52-4ff8-b3bb-9147596a8f0f.png)
+
 
 
 
