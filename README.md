@@ -44,7 +44,7 @@ debt issuance, I took the quarterly first difference and average them in a weekl
 
 
 ### 3. Getting dividend premium data
-The stocks considered to calculate are those listed in S&P 500. I did a quick scraping to get the stocks' tickers from Wikipedia
+The stocks considered to calculate are those listed in S&P 500 (which I think I should use all stocks instead). I did a quick scraping to get the stocks' tickers from Wikipedia
 ("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies") by using requests and BeautifulSoup. With the tickers, I can retrieve their dividends data from Yahoo Finance API
 (yfinance). Dividend payers are those who have positive dividends in that year, and Non-dividend payers are those who don't. After separating the stocks in to payers and 
 non-payers, I scraped the Price-to-Book ratio (which Book-to-Market Ratio is its reverse) of all the stocks from macrotrends (https://www.macrotrends.net/) (PS. there is "apple" 
@@ -72,7 +72,10 @@ Running regressions of the original data against the BW Index and the data I ret
 ![Original](https://user-images.githubusercontent.com/70565542/155175176-2ed1f31e-1b4b-4d57-93a4-918b3dea8e13.png)
 
 2. New Data (Sm is the parameter S adjusted in monthly)
+
 ![New ](https://user-images.githubusercontent.com/70565542/155406753-05d1972b-44af-4319-bcde-01da40d21647.png)
+
+Sadly, there are only 18 overlapping data points but it still return a 90% R^2 and fair significance among the parameters. So I guess I'm happy with it.
 
 
 
