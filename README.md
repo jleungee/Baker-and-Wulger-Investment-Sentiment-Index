@@ -13,6 +13,7 @@ In their paper, they used 6 parameters and principal analysis to quantify invest
 6. Dividend premium (PDND)***
 
 ** As seen from Wulger's personal website (http://people.stern.nyu.edu/jwurgler/), he removes the NYSE measures from his newest update of the index.
+
 *** 12-month lagged
 
 
